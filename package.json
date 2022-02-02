@@ -1,6 +1,6 @@
 {
   "name": "@qonsoll/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "qonsoll",
   "license": "MIT",
   "scripts": {
@@ -55,6 +55,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "dependencies": {
     "@babel/preset-env": "^7.16.8",
+    "@qonsoll/react-design": "^2.1.91",
     "rollup-plugin-babel": "^4.4.0"
   },
   "repository": {
