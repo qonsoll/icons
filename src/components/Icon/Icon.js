@@ -9,7 +9,12 @@ const Icon = (props) => {
   const isIconExist = !!ICONS_NAMES?.[name]
 
   return (
-    <Box minWidth={minWidth || size} minHeight={minHeight || size} {...rest}>
+    <Box
+      minWidth={minWidth || size}
+      minHeight={minHeight || size}
+      display="flex"
+      {...rest}
+    >
       {isIconExist ? cloneElement(ICONS_NAMES?.[name], { fill, size }) : null}
     </Box>
   )
