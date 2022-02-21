@@ -107,7 +107,8 @@ import TranslationFilled from './Translation'
 import TrashFilled from './Trash'
 import UnlockFilled from './Unlock'
 import VideoOffFilled from './VideoOff'
-import VideoOnFilled from './GoogleColored'
+import VideoOnFilled from './VideoOn'
+import VideoAddFilled from './VideoAdd'
 import VippsFilled from './Vipps'
 import VolumeDownFilled from './VolumeDown'
 import VolumeOffFilled from './VolumeOff'
@@ -226,6 +227,7 @@ export {
   UnlockFilled,
   VideoOffFilled,
   VideoOnFilled,
+  VideoAddFilled,
   VippsFilled,
   VolumeDownFilled,
   VolumeOffFilled,
@@ -345,6 +347,7 @@ export default {
   UnlockFilled,
   VideoOffFilled,
   VideoOnFilled,
+  VideoAddFilled,
   VippsFilled,
   VolumeDownFilled,
   VolumeOffFilled,
