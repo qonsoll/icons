@@ -34,6 +34,7 @@ const PROP_TYPES = {
     'ClockFilled',
     'CloseFilled',
     'CompressFilled',
+    'CopyFilled',
     'CloudSyncFilled',
     'CloudUploadFilled',
     'DesktopFilled',
