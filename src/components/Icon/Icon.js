@@ -5,8 +5,8 @@ import ICONS_NAMES from '../../constants/namesMap'
 import PROP_TYPES from '../../constants/iconPropTypes'
 
 const Icon = (props) => {
-  const { name, fill, size, minWidth, minHeight, ...rest } = props
-
+  const { name, fill, size, minWidth, minHeight, spin, ...rest } = props
+  console.log({ props })
   const isIconExist = !!ICONS_NAMES?.[name]
 
   return (
@@ -16,7 +16,9 @@ const Icon = (props) => {
       display="flex"
       {...rest}
     >
-      {isIconExist ? cloneElement(ICONS_NAMES?.[name], { fill, size }) : null}
+      {isIconExist
+        ? cloneElement(ICONS_NAMES?.[name], { fill, size, spin })
+        : null}
     </Box>
   )
 }

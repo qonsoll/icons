@@ -1,8 +1,9 @@
-import peerDepsExternal from 'rollup-plugin-peer-deps-external'
-import commonjs from 'rollup-plugin-commonjs'
 import babel from 'rollup-plugin-babel'
-import { terser } from 'rollup-plugin-terser'
+import commonjs from 'rollup-plugin-commonjs'
+import css from 'rollup-plugin-css-porter'
+import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import pkg from './package.json'
+import { terser } from 'rollup-plugin-terser'
 
 export default {
   input: 'src/index.js',
@@ -25,6 +26,7 @@ export default {
       presets: ['@babel/env', '@babel/preset-react']
     }),
     commonjs(),
-    terser()
+    terser(),
+    css({ dest: 'dist/styles/iconStyles.min.css' })
   ]
 }
