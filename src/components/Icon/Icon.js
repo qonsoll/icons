@@ -1,7 +1,8 @@
 import React, { cloneElement } from 'react'
+
+import { Box } from '@qonsoll/react-design'
 import ICONS_NAMES from '../../constants/namesMap'
 import PROP_TYPES from '../../constants/iconPropTypes'
-import { Box } from '@qonsoll/react-design'
 
 const Icon = (props) => {
   const { name, fill, size, minWidth, minHeight, ...rest } = props
