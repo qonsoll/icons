@@ -6,7 +6,8 @@ import PROP_TYPES from '../../constants/iconPropTypes'
 
 const Icon = (props) => {
   const { name, fill, size, minWidth, minHeight, spin, ...rest } = props
-  console.log({ props })
+
+  // [COMPUTED PROPERTIES]
   const isIconExist = !!ICONS_NAMES?.[name]
 
   return (
