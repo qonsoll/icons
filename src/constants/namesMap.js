@@ -116,7 +116,8 @@ import {
   VolumeOffFilled,
   VolumeUpFilled,
   WalletFilled,
-  WindowsFilled
+  WindowsFilled,
+  DoubleCheckmarkFilled
 } from '../components/SvgComponentsFilled'
 
 import { PlusOutlined } from '../components/SvgComponentsOutline'
@@ -159,6 +160,7 @@ const ICONS_NAMES = {
   DesktopFilled: <DesktopFilled />,
   DisorderFilled: <DisorderFilled />,
   DocFilled: <DocFilled />,
+  DoubleCheckmarkFilled: <DoubleCheckmarkFilled />,
   DurationFilled: <DurationFilled />,
   EditFilled: <EditFilled />,
   EvaluationStateFilled: <EvaluationStateFilled />,

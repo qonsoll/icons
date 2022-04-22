@@ -34,6 +34,7 @@ import CopyFilled from './Copy'
 import DesktopFilled from './Desktop'
 import DisorderFilled from './Disorder'
 import DocFilled from './Doc'
+import DoubleCheckmarkFilled from './DoubleCheckmark'
 import DurationFilled from './Duration'
 import EditFilled from './Edit'
 import EvaluationStateFilled from './EvaluationState'
@@ -154,6 +155,7 @@ export {
   DesktopFilled,
   DisorderFilled,
   DocFilled,
+  DoubleCheckmarkFilled,
   DurationFilled,
   EditFilled,
   EvaluationStateFilled,
@@ -275,6 +277,7 @@ export default {
   DesktopFilled,
   DisorderFilled,
   DocFilled,
+  DoubleCheckmarkFilled,
   DurationFilled,
   EditFilled,
   EvaluationStateFilled,

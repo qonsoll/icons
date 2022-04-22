@@ -40,6 +40,7 @@ const PROP_TYPES = {
     'DesktopFilled',
     'DisorderFilled',
     'DocFilled',
+    'DoubleCheckmarkFilled',
     'DurationFilled',
     'EditFilled',
     'EvaluationStateFilled',
