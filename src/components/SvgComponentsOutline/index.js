@@ -1,4 +1,5 @@
+import LanguageOutlined from './Language'
 import PlusOutlined from './Plus'
 
-export { PlusOutlined }
-export default { PlusOutlined }
+export { PlusOutlined, LanguageOutlined }
+export default { PlusOutlined, LanguageOutlined }

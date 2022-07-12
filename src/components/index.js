@@ -118,8 +118,7 @@ import {
   WalletFilled,
   WindowsFilled
 } from './SvgComponentsFilled'
-
-import { PlusOutlined } from './SvgComponentsOutline'
+import { LanguageOutlined, PlusOutlined } from './SvgComponentsOutline'
 
 //UNIVERSAL COMPONENT
 export { default as Icon } from './Icon'
@@ -242,5 +241,6 @@ export {
   VolumeUpFilled,
   WalletFilled,
   WindowsFilled,
-  PlusOutlined
+  PlusOutlined,
+  LanguageOutlined
 }
