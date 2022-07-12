@@ -35,6 +35,7 @@ import {
   DesktopFilled,
   DisorderFilled,
   DocFilled,
+  DoubleCheckmarkFilled,
   DurationFilled,
   EditFilled,
   EvaluationStateFilled,
@@ -116,11 +117,13 @@ import {
   VolumeOffFilled,
   VolumeUpFilled,
   WalletFilled,
-  WindowsFilled,
-  DoubleCheckmarkFilled
+  WindowsFilled
 } from '../components/SvgComponentsFilled'
+import {
+  LanguageOutlined,
+  PlusOutlined
+} from '../components/SvgComponentsOutline'
 
-import { PlusOutlined } from '../components/SvgComponentsOutline'
 import React from 'react'
 
 const ICONS_NAMES = {
@@ -243,7 +246,8 @@ const ICONS_NAMES = {
   VolumeUpFilled: <VolumeUpFilled />,
   WalletFilled: <WalletFilled />,
   WindowsFilled: <WindowsFilled />,
-  PlusOutlined: <PlusOutlined />
+  PlusOutlined: <PlusOutlined />,
+  LanguageOutlined: <LanguageOutlined />
 }
 
 export default ICONS_NAMES

@@ -123,7 +123,8 @@ const PROP_TYPES = {
     'VolumeUpFilled',
     'WalletFilled',
     'WindowsFilled',
-    'PlusOutlined'
+    'PlusOutlined',
+    'LanguageOutlined'
   ]).isRequired
 }
 
