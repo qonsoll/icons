@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
-const CardStyled = styled.div`
-  overflow: hidden;
-  text-overflow: ellipsis;
+const IconSimpleViewStyled = styled.div`
   cursor: pointer;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -20,17 +19,6 @@ const CardStyled = styled.div`
   }
 `
 
-const ListIconStyled = styled.div`
-  display: grid;
-  grid-auto-rows: auto;
-  grid-auto-columns: -webkit-max-content;
-  grid-auto-columns: max-content;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  text-align: center;
-`
-
 const TextStyled = styled.span`
   display: inline-block;
   font-size: 0.9rem;
@@ -38,6 +26,15 @@ const TextStyled = styled.span`
   overflow: hidden;
   user-select: all;
   white-space: pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `
 
-export { CardStyled, ListIconStyled, TextStyled }
+const IconWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+`
+
+export { IconSimpleViewStyled, TextStyled, IconWrapper }
