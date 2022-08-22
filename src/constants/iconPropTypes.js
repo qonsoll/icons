@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 const PROP_TYPES = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   fill: PropTypes.string,
+  stroke: PropTypes.string,
+  strokeWidth: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   name: PropTypes.oneOf([
     'ActivitiesFilled',
     'AlertCircleFilled',

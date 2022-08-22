@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['react-app', 'prettier', 'prettier/react'],
+  extends: ['react-app', 'prettier', 'prettier/react', 'plugin:storybook/recommended'],
   root: true,
   parser: 'babel-eslint',
   plugins: ['import', 'babel', 'react', 'react-hooks', 'prettier'],
@@ -22,19 +22,16 @@ module.exports = {
     'no-return-await': 2,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'prettier/prettier': [
-      'error',
-      {
-        tabWidth: 2,
-        useTabs: false,
-        printWidth: 80,
-        singleQuote: true,
-        semi: false,
-        trailingComma: 'none',
-        quoteProps: 'as-needed',
-        bracketSameLine: false,
-        bracketSpacing: true
-      }
-    ]
+    'prettier/prettier': ['error', {
+      tabWidth: 2,
+      useTabs: false,
+      printWidth: 80,
+      singleQuote: true,
+      semi: false,
+      trailingComma: 'none',
+      quoteProps: 'as-needed',
+      bracketSameLine: false,
+      bracketSpacing: true
+    }]
   }
-}
+};
