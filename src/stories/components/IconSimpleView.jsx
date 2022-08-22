@@ -5,17 +5,18 @@ import {
 } from './IconSimpleView.styled'
 
 import { Icon } from '../..'
+import PropTypes from 'prop-types'
 import React from 'react'
 import { useShareIconName } from '../hooks'
 
-const IconSimpleView = ({ name, onClick, iconActions }) => {
+const IconSimpleView = ({ name, showInActionsCopied, iconActions }) => {
   // [ADDITIONAL_HOOKS]
   const shareIconName = useShareIconName()
 
   // [HELPER_FUNCTIONS]
   const handleCopyIcon = (e) => {
     shareIconName(name, e)
-    onClick(name)
+    showInActionsCopied(name)
   }
 
   return (
@@ -26,6 +27,11 @@ const IconSimpleView = ({ name, onClick, iconActions }) => {
       <TextStyled>{name}</TextStyled>
     </IconSimpleViewStyled>
   )
+}
+IconSimpleView.propTypes = {
+  name: PropTypes.string,
+  showInActionsCopied: PropTypes.func,
+  iconActions: PropTypes.object
 }
 
 export default IconSimpleView

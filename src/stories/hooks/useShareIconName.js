@@ -6,7 +6,7 @@ import { useCallback } from 'react'
 
 const useShareIconName = () =>
   useCallback((iconName, e) => {
-    e && e?.stopPropagation()
+    e?.stopPropagation()
     navigator?.clipboard?.writeText(iconName)
   }, [])
 

@@ -9,7 +9,7 @@ export default {
     fill: { control: 'color' },
     stroke: { control: 'color' },
     strokeWidth: { control: 'text' },
-    onClick: { action: 'copied' }
+    showInActionsCopied: { action: 'Copied' }
   }
 }
 
