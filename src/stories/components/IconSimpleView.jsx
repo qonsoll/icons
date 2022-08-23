@@ -4,12 +4,13 @@ import {
   TextStyled
 } from './IconSimpleView.styled'
 
-import { Icon } from '../..'
+import { Icon } from '../../components'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { useShareIconName } from '../hooks'
 
-const IconSimpleView = ({ name, showInActionsCopied, iconActions }) => {
+const IconSimpleView = (props) => {
+  const { name, showInActionsCopied, iconActions } = props
   // [ADDITIONAL_HOOKS]
   const shareIconName = useShareIconName()
 
