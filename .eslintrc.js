@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['react-app', 'prettier', 'prettier/react'],
+  extends: [
+    'react-app',
+    'prettier',
+    'prettier/react',
+    'plugin:storybook/recommended'
+  ],
   root: true,
   parser: 'babel-eslint',
   plugins: ['import', 'babel', 'react', 'react-hooks', 'prettier'],
