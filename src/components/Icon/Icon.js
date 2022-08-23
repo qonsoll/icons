@@ -5,17 +5,7 @@ import ICONS_NAMES from '../../constants/namesMap'
 import PROP_TYPES from '../../constants/iconPropTypes'
 
 const Icon = (props) => {
-  const {
-    name,
-    fill,
-    size,
-    minWidth,
-    minHeight,
-    spin,
-    stroke,
-    strokeWidth,
-    ...rest
-  } = props
+  const { name, fill, size, minWidth, minHeight, spin, ...rest } = props
 
   // [COMPUTED PROPERTIES]
   const isIconExist = !!ICONS_NAMES?.[name]
@@ -31,9 +21,7 @@ const Icon = (props) => {
         ? cloneElement(ICONS_NAMES?.[name], {
             fill,
             size,
-            spin,
-            stroke,
-            strokeWidth
+            spin
           })
         : null}
     </Box>

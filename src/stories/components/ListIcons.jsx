@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 import { filterIcons } from '../helpers'
 
 const ListIcons = (props) => {
-  const { showInActionsCopied, size, stroke, strokeWidth, fill } = props
+  const { showInActionsCopied, size, fill } = props
 
   // [STATE_HOOKS]
   const [filter, setFilter] = useState('')
@@ -16,7 +16,6 @@ const ListIcons = (props) => {
   const handleChange = (e) => setFilter(e.target.value.toLocaleLowerCase())
 
   // [COMPUTED_PROPERTIES]
-  const iconActions = { size, stroke, strokeWidth, fill }
 
   return (
     <Container>
@@ -32,7 +31,8 @@ const ListIcons = (props) => {
             <IconSimpleView
               name={iconName}
               showInActionsCopied={showInActionsCopied}
-              iconActions={iconActions}
+              size={size}
+              fill={fill}
             />
           </Col>
         ))}
@@ -42,10 +42,8 @@ const ListIcons = (props) => {
 }
 ListIcons.propTypes = {
   fill: PropTypes.string,
-  stroke: PropTypes.string,
-  showInActionsCopied: PropTypes.func,
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  strokeWidth: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+  showInActionsCopied: PropTypes.func
 }
 
 export default ListIcons
