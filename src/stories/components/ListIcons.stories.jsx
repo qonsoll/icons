@@ -1,6 +1,7 @@
+import 'antd/dist/antd.css'
+
 import ListIcons from './ListIcons'
 import React from 'react'
-import 'antd/dist/antd.css'
 
 export default {
   title: 'Example/Icon',
@@ -8,8 +9,6 @@ export default {
   argTypes: {
     size: { control: 'text' },
     fill: { control: 'color' },
-    stroke: { control: 'color' },
-    strokeWidth: { control: 'text' },
     showInActionsCopied: { action: 'Copied' }
   }
 }

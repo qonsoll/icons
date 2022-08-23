@@ -1,4 +1,3 @@
-import { message } from 'antd'
 import {
   IconSimpleViewStyled,
   IconWrapper,
@@ -8,16 +7,21 @@ import {
 import { Icon } from '../../components'
 import PropTypes from 'prop-types'
 import React from 'react'
+import { message } from 'antd'
 import { useShareIconName } from '../hooks'
 
 const IconSimpleView = (props) => {
-  const { name, showInActionsCopied, iconActions } = props
+  const { name, showInActionsCopied, size, fill } = props
+  //  [COMPUTED_PROPERTIES]
+  let sizeProp = size ? `size="${size}" ` : ''
+  let fillProp = fill ? `fill="${fill}" ` : ''
+
   // [ADDITIONAL_HOOKS]
   const shareIconName = useShareIconName()
 
   // [HELPER_FUNCTIONS]
   const handleCopyIcon = (e) => {
-    const iconComponent = `<${name} />`
+    const iconComponent = `<${name} ${sizeProp}${fillProp}/>`
     shareIconName(iconComponent, e)
     showInActionsCopied(iconComponent)
     message.success({
@@ -41,7 +45,7 @@ const IconSimpleView = (props) => {
   return (
     <IconSimpleViewStyled onClick={handleCopyIcon}>
       <IconWrapper>
-        <Icon name={name} {...iconActions} />
+        <Icon name={name} size={size} fill={fill} />
       </IconWrapper>
       <TextStyled>{name}</TextStyled>
     </IconSimpleViewStyled>
@@ -50,7 +54,8 @@ const IconSimpleView = (props) => {
 IconSimpleView.propTypes = {
   name: PropTypes.string,
   showInActionsCopied: PropTypes.func,
-  iconActions: PropTypes.object
+  fill: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
 }
 
 export default IconSimpleView
