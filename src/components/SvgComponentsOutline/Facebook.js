@@ -1,0 +1,22 @@
+ import React from 'react'
+  
+  const FacebookOutlined = (props) => {
+    const { size = '24' , fill = 'none' } = props
+    
+    return (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill={fill} xmlns="http://www.w3.org/2000/svg">
+<path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" fill="url(#paint0_linear_327_512)"/>
+<path d="M10.335 21.862V14.7789H7.83502V12.0011H10.335V9.7789C10.335 7.2789 11.9461 5.89001 14.2239 5.89001C14.9461 5.89001 15.7239 6.00113 16.4461 6.11224V8.66779H15.1684C13.9461 8.66779 13.6684 9.2789 13.6684 10.0567V12.0011H16.335L15.8906 14.7789H13.6684V21.8615C13.1258 21.9526 12.5684 22 12 22C11.4327 22 10.8765 21.9528 10.335 21.862Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_327_512" x1="12" y1="21.4156" x2="12" y2="2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0062E0"/>
+<stop offset="1" stop-color="#19AFFF"/>
+</linearGradient>
+</defs>
+</svg>
+
+    )
+  }
+
+  export default FacebookOutlined 
+  
