@@ -28,7 +28,7 @@ const ListIcons = (props) => {
           />
         </Col>
         {filterIcons(filter).map((iconName, index) => (
-          <Col key={`IconSimpleView-${index}`} cw="2">
+          <Col key={`IconSimpleView-${index}`} cw={[4, 3, 2]}>
             <IconSimpleView
               name={iconName}
               showInActionsCopied={showInActionsCopied}

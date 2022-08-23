@@ -1,3 +1,4 @@
+import { message } from 'antd'
 import {
   IconSimpleViewStyled,
   IconWrapper,
@@ -16,8 +17,25 @@ const IconSimpleView = (props) => {
 
   // [HELPER_FUNCTIONS]
   const handleCopyIcon = (e) => {
-    shareIconName(name, e)
-    showInActionsCopied(name)
+    const iconComponent = `<${name} />`
+    shareIconName(iconComponent, e)
+    showInActionsCopied(iconComponent)
+    message.success({
+      content: (
+        <span>
+          <code
+            style={{
+              background: '#f5f5f5',
+              padding: '2px 4px',
+              borderRadius: 4
+            }}
+          >
+            {iconComponent}
+          </code>{' '}
+          copied 🎉
+        </span>
+      )
+    })
   }
 
   return (

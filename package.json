@@ -8,7 +8,7 @@
     "prepare": "npm run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs-build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "gh-pages -d docs-build"
   },
   "module": "dist/index.js",
   "main": "dist/index.cjs.js",
