@@ -15,7 +15,6 @@ const IconSimpleView = (props) => {
   //  [COMPUTED_PROPERTIES]
   let sizeProp = size ? `size="${size}" ` : ''
   let fillProp = fill ? `fill="${fill}" ` : ''
-  console.log(typeof fill)
 
   // [ADDITIONAL_HOOKS]
   const shareIconName = useShareIconName()
