@@ -7,7 +7,6 @@ import PropTypes from 'prop-types'
 import { filterIcons } from '../helpers'
 
 const ListIcons = (props) => {
-  // [ADDITIONAL_HOOKS]
   const { showInActionsCopied, size, stroke, strokeWidth, fill } = props
 
   // [STATE_HOOKS]
