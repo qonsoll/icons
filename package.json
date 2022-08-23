@@ -7,7 +7,8 @@
     "build": " rollup -c",
     "prepare": "npm run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs-build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "module": "dist/index.js",
   "main": "dist/index.cjs.js",
@@ -54,6 +55,7 @@
     "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "4.0.4",
     "eslint-plugin-storybook": "0.6.4",
+    "gh-pages": "^4.0.0",
     "prettier": "2.0.5",
     "prop-types": "15.8.1",
     "rollup": "2.55.1",
