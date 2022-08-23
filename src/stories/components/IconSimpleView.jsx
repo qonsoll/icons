@@ -13,15 +13,15 @@ import { useShareIconName } from '../hooks'
 const IconSimpleView = (props) => {
   const { name, showInActionsCopied, size, fill } = props
   //  [COMPUTED_PROPERTIES]
-  let sizeProp = size ? `size={${size}}` : ''
-  let fillProp = fill ? `fill={${fill}}` : ''
+  let sizeProp = size ? `size={${size}} ` : ''
+  let fillProp = fill ? `fill={${fill}} ` : ''
 
   // [ADDITIONAL_HOOKS]
   const shareIconName = useShareIconName()
 
   // [HELPER_FUNCTIONS]
   const handleCopyIcon = (e) => {
-    const iconComponent = `<${name} ${sizeProp} ${fillProp} />`
+    const iconComponent = `<${name} ${sizeProp}${fillProp}/>`
     shareIconName(iconComponent, e)
     showInActionsCopied(iconComponent)
     message.success({
