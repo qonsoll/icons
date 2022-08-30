@@ -991,7 +991,7 @@ const PROP_TYPES = {
     'PlayCircleOutlined',
     'PlaySquareOutlined',
     'PlayOutlined',
-    'Plus2Outlined',
+    'PlusOutlined',
     'PlusCircleOutlined',
     'PlusSquareOutlined',
     'PodcastOutlined',

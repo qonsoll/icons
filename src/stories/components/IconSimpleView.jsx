@@ -21,7 +21,7 @@ const IconSimpleView = (props) => {
 
   // [HELPER_FUNCTIONS]
   const handleCopyIcon = (e) => {
-    const iconComponent = `<${name} ${sizeProp}${fillProp}/>`
+    const iconComponent = `<Icon name="${name}" ${sizeProp}${fillProp}/>`
     shareIconName(iconComponent, e)
     showInActionsCopied(iconComponent)
     message.success({
