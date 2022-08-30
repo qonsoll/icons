@@ -863,9 +863,9 @@ import PlaceholderOutlined from './Placeholder'
 import PlayCircleOutlined from './PlayCircle'
 import PlayOutlined from './Play'
 import PlaySquareOutlined from './PlaySquare'
-import Plus1Outlined from './Plus2'
-import Plus2Outlined from './Plus2'
+import Plus1Outlined from './Plus1'
 import PlusCircleOutlined from './PlusCircle'
+import PlusOutlined from './Plus'
 import PlusSquareOutlined from './PlusSquare'
 import PodcastOutlined from './Podcast'
 import Power1Outlined from './Power1'
@@ -1179,7 +1179,7 @@ import ZoomInOutlined from './ZoomIn'
 import ZoomOutOutlined from './ZoomOut'
 
 export {
-  Plus1Outlined,
+  PlusOutlined,
   LanguageOutlined,
   AppleOutlined,
   FacebookOutlined,
@@ -2047,7 +2047,7 @@ export {
   PlayCircleOutlined,
   PlaySquareOutlined,
   PlayOutlined,
-  Plus2Outlined,
+  Plus1Outlined,
   PlusCircleOutlined,
   PlusSquareOutlined,
   PodcastOutlined,
@@ -2360,7 +2360,7 @@ export {
   ZoomOutOutlined
 }
 export default {
-  Plus1Outlined,
+  PlusOutlined,
   LanguageOutlined,
   AppleOutlined,
   FacebookOutlined,
@@ -3228,7 +3228,7 @@ export default {
   PlayCircleOutlined,
   PlaySquareOutlined,
   PlayOutlined,
-  Plus2Outlined,
+  PlusOutlined,
   PlusCircleOutlined,
   PlusSquareOutlined,
   PodcastOutlined,
