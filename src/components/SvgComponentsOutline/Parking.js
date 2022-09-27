@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ParkingOutlined = (props) => {
-  const { size = '24', fill = 'none' } = props
+  const { size = '24', fill = 'black' } = props
 
   return (
     <svg
