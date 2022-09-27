@@ -211,6 +211,8 @@ import Camera3Outlined from './Camera3'
 import CameraLensOutlined from './CameraLens'
 import CameraOffOutlined from './CameraOff'
 import CameraPlusOutlined from './CameraPlus'
+import Car2Outlined from './Car2'
+import CarOutlined from './Car'
 import Certificate1Outlined from './Certificate1'
 import Certificate2Outlined from './Certificate2'
 import ChartBreakoutCircleOutlined from './ChartBreakoutCircle'
@@ -375,6 +377,8 @@ import Cursor4Outlined from './Cursor4'
 import CursorBoxOutlined from './CursorBox'
 import CursorClick1Outlined from './CursorClick1'
 import CursorClick2Outlined from './CursorClick2'
+import Dashboard2Outlined from './Dashboard2'
+import DashboardOutlined from './Dashboard'
 import DataOutlined from './Data'
 import Database1Outlined from './Database1'
 import Database2Outlined from './Database2'
@@ -487,6 +491,7 @@ import FileSearch3Outlined from './FileSearch3'
 import FileShield1Outlined from './FileShield1'
 import FileShield2Outlined from './FileShield2'
 import FileShield3Outlined from './FileShield3'
+import FileUpload3Outlined from './FileUpload3'
 import FileX1Outlined from './FileX1'
 import FileX2Outlined from './FileX2'
 import FileX3Outlined from './FileX3'
@@ -527,6 +532,7 @@ import FolderSearchOutlined from './FolderSearch'
 import FolderShieldOutlined from './FolderShield'
 import FolderXOutlined from './FolderX'
 import FramerOutlined from './Framer'
+import FuelStationOutlined from './FuelStation'
 import GamingPad1Outlined from './GamingPad1'
 import GamingPad2Outlined from './GamingPad2'
 import Gift1Outlined from './Gift1'
@@ -817,6 +823,7 @@ import PaletteOutlined from './Palette'
 import PaperclipOutlined from './Paperclip'
 import ParagraphSpacingOutlined from './ParagraphSpacing'
 import ParagraphWrapOutlined from './ParagraphWrap'
+import ParkingOutlined from './Parking'
 import PasscodeLockOutlined from './PasscodeLock'
 import PasscodeOutlined from './Passcode'
 import PassportOutlined from './Passport'
@@ -863,6 +870,7 @@ import PlaceholderOutlined from './Placeholder'
 import PlayCircleOutlined from './PlayCircle'
 import PlayOutlined from './Play'
 import PlaySquareOutlined from './PlaySquare'
+import PlugStationOutlined from './PlugStation'
 import Plus1Outlined from './Plus1'
 import PlusCircleOutlined from './PlusCircle'
 import PlusOutlined from './Plus'
@@ -972,7 +980,9 @@ import ShoppingCart2Outlined from './ShoppingCart2'
 import ShoppingCart3Outlined from './ShoppingCart3'
 import Shuffle1Outlined from './Shuffle1'
 import Shuffle2Outlined from './Shuffle2'
+import Signal1OffOutlined from './Signal1Off'
 import Signal1Outlined from './Signal1'
+import Signal2OffOutlined from './Signal2Off'
 import Signal2Outlined from './Signal2'
 import Signal3Outlined from './Signal3'
 import SimcardOutlined from './Simcard'
@@ -1179,6 +1189,7 @@ import ZoomInOutlined from './ZoomIn'
 import ZoomOutOutlined from './ZoomOut'
 
 export {
+  Plus1Outlined,
   PlusOutlined,
   LanguageOutlined,
   AppleOutlined,
@@ -1400,6 +1411,8 @@ export {
   CameraLensOutlined,
   CameraOffOutlined,
   CameraPlusOutlined,
+  Car2Outlined,
+  CarOutlined,
   Certificate1Outlined,
   Certificate2Outlined,
   ChartBreakoutCircleOutlined,
@@ -1564,6 +1577,8 @@ export {
   CursorBoxOutlined,
   CursorClick1Outlined,
   CursorClick2Outlined,
+  Dashboard2Outlined,
+  DashboardOutlined,
   DataOutlined,
   Database1Outlined,
   Database2Outlined,
@@ -1675,6 +1690,7 @@ export {
   FileShield1Outlined,
   FileShield2Outlined,
   FileShield3Outlined,
+  FileUpload3Outlined,
   FileX1Outlined,
   FileX2Outlined,
   FileX3Outlined,
@@ -1715,6 +1731,7 @@ export {
   FolderXOutlined,
   FolderOutlined,
   FramerOutlined,
+  FuelStationOutlined,
   GamingPad1Outlined,
   GamingPad2Outlined,
   Gift1Outlined,
@@ -2001,6 +2018,7 @@ export {
   PaperclipOutlined,
   ParagraphSpacingOutlined,
   ParagraphWrapOutlined,
+  ParkingOutlined,
   PasscodeLockOutlined,
   PasscodeOutlined,
   PassportOutlined,
@@ -2047,7 +2065,7 @@ export {
   PlayCircleOutlined,
   PlaySquareOutlined,
   PlayOutlined,
-  Plus1Outlined,
+  PlugStationOutlined,
   PlusCircleOutlined,
   PlusSquareOutlined,
   PodcastOutlined,
@@ -2155,7 +2173,9 @@ export {
   ShoppingCart3Outlined,
   Shuffle1Outlined,
   Shuffle2Outlined,
+  Signal1OffOutlined,
   Signal1Outlined,
+  Signal2OffOutlined,
   Signal2Outlined,
   Signal3Outlined,
   SimcardOutlined,
@@ -2360,6 +2380,7 @@ export {
   ZoomOutOutlined
 }
 export default {
+  Plus1Outlined,
   PlusOutlined,
   LanguageOutlined,
   AppleOutlined,
@@ -2581,6 +2602,8 @@ export default {
   CameraLensOutlined,
   CameraOffOutlined,
   CameraPlusOutlined,
+  Car2Outlined,
+  CarOutlined,
   Certificate1Outlined,
   Certificate2Outlined,
   ChartBreakoutCircleOutlined,
@@ -2745,6 +2768,8 @@ export default {
   CursorBoxOutlined,
   CursorClick1Outlined,
   CursorClick2Outlined,
+  Dashboard2Outlined,
+  DashboardOutlined,
   DataOutlined,
   Database1Outlined,
   Database2Outlined,
@@ -2856,6 +2881,7 @@ export default {
   FileShield1Outlined,
   FileShield2Outlined,
   FileShield3Outlined,
+  FileUpload3Outlined,
   FileX1Outlined,
   FileX2Outlined,
   FileX3Outlined,
@@ -2896,6 +2922,7 @@ export default {
   FolderXOutlined,
   FolderOutlined,
   FramerOutlined,
+  FuelStationOutlined,
   GamingPad1Outlined,
   GamingPad2Outlined,
   Gift1Outlined,
@@ -3182,6 +3209,7 @@ export default {
   PaperclipOutlined,
   ParagraphSpacingOutlined,
   ParagraphWrapOutlined,
+  ParkingOutlined,
   PasscodeLockOutlined,
   PasscodeOutlined,
   PassportOutlined,
@@ -3228,9 +3256,10 @@ export default {
   PlayCircleOutlined,
   PlaySquareOutlined,
   PlayOutlined,
-  PlusOutlined,
+  PlugStationOutlined,
   PlusCircleOutlined,
   PlusSquareOutlined,
+  PlusOutlined,
   PodcastOutlined,
   Power1Outlined,
   Power2Outlined,
@@ -3336,7 +3365,9 @@ export default {
   ShoppingCart3Outlined,
   Shuffle1Outlined,
   Shuffle2Outlined,
+  Signal1OffOutlined,
   Signal1Outlined,
+  Signal2OffOutlined,
   Signal2Outlined,
   Signal3Outlined,
   SimcardOutlined,
