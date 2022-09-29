@@ -58,3 +58,28 @@ function App() {
 | ----------- | --------------------- | ------------------------------- |
 | `fill`      | `black`               | `Inlined icons #424851`         |
 | `size`      | `24px`                | `Inlined icons 16px`            |
+
+
+## How to update package step-by-step
+
+### You can write in terminal ```run storybook```, and see all changes on Storybook
+
+1. Add file.svg to src/icons/(Filled/Outline)
+2. Next create new IconComponent
+    1. Go to src/components/SvgComponents(Filled/Outline)
+    2. Create new IconComponent with two props: size, fill
+        1. Add in return all content from file.svg (svg, path)
+            1. Outline icons - change stroke="black" -> stroke={fill}
+            2. Filled icons - change fill="black" -> fill={fill}
+    3. open index.js inside (src/components/SvgComponents(Filled/Outline))
+        1. import Icon(Filled/Outlined) from "./IconComponent"
+        2. export {...IconComponents, Icon(Filled/Outlined) }
+        3. export default {...IconComponents, Icon(Filled/Outlined) }
+    4. Go to src/components/index.js
+        1. import {...IconComponents, Icon(Filled/Outlined } from "./IconFolder"
+        2. export {...IconComponents, Icon(Filled/Outlined) }
+    5. Go to src/constants/iconPropTypes.js
+        1. update PROP_TYPES.name, with new IconComponent
+    6. Go to src/constants/namesMap.js
+        1. import {...IconComponents, Icon(Filled/Outlined} from "../components/SvgComponents(Filled/Outline)"
+        2. const ICONS_NAMES = {...IconComponents, Icon(Filled/Outlined): <Icon(Filled/Outlined) />}
