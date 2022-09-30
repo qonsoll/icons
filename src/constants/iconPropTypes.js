@@ -4,6 +4,12 @@ const PROP_TYPES = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   fill: PropTypes.string,
   name: PropTypes.oneOf([
+    'AccidentOutlined',
+    'PoliceBadgeOutlined',
+    'RoadWorksOutlined',
+    'TrafficCone1Outlined',
+    'TrafficCone2Outlined',
+    'TrafficJamOutlined',
     'ActivitiesFilled',
     'AlertCircleFilled',
     'AlertDangerWarningFilled',

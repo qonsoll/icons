@@ -1,3 +1,4 @@
+import AccidentOutlined from './Accident'
 import ActivityHeartOutlined from './ActivityHeart'
 import ActivityOutlined from './Activity'
 import AirplayOutlined from './Airplay'
@@ -876,6 +877,7 @@ import PlusCircleOutlined from './PlusCircle'
 import PlusOutlined from './Plus'
 import PlusSquareOutlined from './PlusSquare'
 import PodcastOutlined from './Podcast'
+import PoliceBadgeOutlined from './PoliceBadge'
 import Power1Outlined from './Power1'
 import Power2Outlined from './Power2'
 import Power3Outlined from './Power3'
@@ -912,6 +914,7 @@ import ReverseLeftOutlined from './ReverseLeft'
 import ReverseRightOutlined from './ReverseRight'
 import RightIndent1Outlined from './RightIndent1'
 import RightIndent2Outlined from './RightIndent2'
+import RoadWorksOutlined from './RoadWorks'
 import Rocket1Outlined from './Rocket1'
 import Rocket2Outlined from './Rocket2'
 import RollerBrushOutlined from './RollerBrush'
@@ -1075,6 +1078,9 @@ import Toggle3LeftOutlined from './Toggle3Left'
 import Toggle3RightOutlined from './Toggle3Right'
 import Tool1Outlined from './Tool1'
 import Tool2Outlined from './Tool2'
+import TrafficCone1Outlined from './TrafficCone1'
+import TrafficCone2Outlined from './TrafficCone2'
+import TrafficJamOutlined from './TrafficJam'
 import TrainOutlined from './Train'
 import TramOutlined from './Tram'
 import TransformOutlined from './Transform'
@@ -1189,6 +1195,12 @@ import ZoomInOutlined from './ZoomIn'
 import ZoomOutOutlined from './ZoomOut'
 
 export {
+  AccidentOutlined,
+  PoliceBadgeOutlined,
+  RoadWorksOutlined,
+  TrafficCone1Outlined,
+  TrafficCone2Outlined,
+  TrafficJamOutlined,
   Plus1Outlined,
   PlusOutlined,
   LanguageOutlined,
@@ -2383,6 +2395,12 @@ export default {
   Plus1Outlined,
   PlusOutlined,
   LanguageOutlined,
+  AccidentOutlined,
+  PoliceBadgeOutlined,
+  RoadWorksOutlined,
+  TrafficCone1Outlined,
+  TrafficCone2Outlined,
+  TrafficJamOutlined,
   AppleOutlined,
   FacebookOutlined,
   Google1Outlined,
