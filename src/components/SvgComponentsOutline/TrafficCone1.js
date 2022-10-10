@@ -14,9 +14,9 @@ const TrafficCone1Outlined = (props) => {
       <path
         d="M7 6.99999H13M5 12H15M1 17H19M17 17L11.0597 1.72489C10.8897 1.28787 10.4689 1 10 1C9.53109 1 9.11027 1.28787 8.94032 1.72489L3 17H17Z"
         stroke={fill}
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )

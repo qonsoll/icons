@@ -1,15 +1,25 @@
- import React from 'react'
-  
-  const Minimize1Outlined = (props) => {
-    const { size = '24' , fill = 'black' } = props
-    
-    return (
-      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 14H10M10 14V20M10 14L3 21M20 10H14M14 10V4M14 10L21 3" stroke={fill} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+import React from 'react'
 
-    )
-  }
+const Minimize1Outlined = (props) => {
+  const { size = '24', fill = 'black' } = props
 
-  export default Minimize1Outlined 
-  
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 14H10M10 14V20M10 14L3 21M20 10H14M14 10V4M14 10L21 3"
+        stroke={fill}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+export default Minimize1Outlined
