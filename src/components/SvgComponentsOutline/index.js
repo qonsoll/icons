@@ -1193,6 +1193,39 @@ import ZapOutlined from './Zap'
 import ZapSquareOutlined from './ZapSquare'
 import ZoomInOutlined from './ZoomIn'
 import ZoomOutOutlined from './ZoomOut'
+import BottleOutlined from './Bottle'
+import CakeOutlined from './Cake'
+import ClocheOutlined from './Cloche'
+import CoffeeCupOutlined from './CoffeeCup'
+import CookieOutlined from './Cookie'
+import CupcakeOutlined from './Cupcake'
+import EggOutlined from './Egg'
+import FemaleOutlined from './Female'
+import FishOutlined from './Fish'
+import ForkKnifeCrossedOutlined from './ForkKnifeCrossed'
+import ForkKnifeOutlined from './ForkKnife'
+import ForkSpoonCrossedOutlined from './ForkSpoonCrossed'
+import ForkSpoonOutlined from './ForkSpoon'
+import Glass1Outlined from './Glass1'
+import Glass2Outlined from './Glass2'
+import HamburgerOutlined from './Hamburger'
+import Invalid1Outlined from './Invalid1'
+import Invalid2Outlined from './Invalid2'
+import KnifeOutlined from './Knife'
+import MaleOutlined from './Male'
+import MartiniGlassCrossedOutlined from './MartiniGlassCrossed'
+import MartiniGlassOutlined from './MartiniGlass'
+import MugSaucerSteamOutlined from './MugSaucerSteam'
+import MugSaucerOutlined from './MugSaucer'
+import NonBinaryOutlined from './NonBinary'
+import PizzaOutlined from './Pizza'
+import PopcornOutlined from './Popcorn'
+import RestaurantMenuOutlined from './RestaurantMenu'
+import RoadSignOutlined from './RoadSign'
+import SignBothOutlined from './SignBoth'
+import SignLeftOutlined from './SignLeft'
+import SignRightOutlined from './SignRight'
+import WineGlassOutlined from './WineGlass'
 
 export {
   AccidentOutlined,
@@ -2389,7 +2422,40 @@ export {
   ZapSquareOutlined,
   ZapOutlined,
   ZoomInOutlined,
-  ZoomOutOutlined
+  ZoomOutOutlined,
+  BottleOutlined,
+  CakeOutlined,
+  ClocheOutlined,
+  CoffeeCupOutlined,
+  CookieOutlined,
+  CupcakeOutlined,
+  EggOutlined,
+  FemaleOutlined,
+  FishOutlined,
+  ForkKnifeCrossedOutlined,
+  ForkKnifeOutlined,
+  ForkSpoonCrossedOutlined,
+  ForkSpoonOutlined,
+  Glass1Outlined,
+  Glass2Outlined,
+  HamburgerOutlined,
+  Invalid1Outlined,
+  Invalid2Outlined,
+  KnifeOutlined,
+  MaleOutlined,
+  MartiniGlassCrossedOutlined,
+  MartiniGlassOutlined,
+  MugSaucerSteamOutlined,
+  MugSaucerOutlined,
+  NonBinaryOutlined,
+  PizzaOutlined,
+  PopcornOutlined,
+  RestaurantMenuOutlined,
+  RoadSignOutlined,
+  SignBothOutlined,
+  SignLeftOutlined,
+  SignRightOutlined,
+  WineGlassOutlined
 }
 export default {
   Plus1Outlined,
@@ -3587,5 +3653,39 @@ export default {
   ZapSquareOutlined,
   ZapOutlined,
   ZoomInOutlined,
-  ZoomOutOutlined
+  ZoomOutOutlined,
+  BottleOutlined,
+  CakeOutlined,
+  ClocheOutlined,
+  CoffeeCupOutlined,
+  CookieOutlined,
+  CupcakeOutlined,
+  Dashboard2Outlined,
+  EggOutlined,
+  FemaleOutlined,
+  FishOutlined,
+  ForkKnifeCrossedOutlined,
+  ForkKnifeOutlined,
+  ForkSpoonCrossedOutlined,
+  ForkSpoonOutlined,
+  Glass1Outlined,
+  Glass2Outlined,
+  HamburgerOutlined,
+  Invalid1Outlined,
+  Invalid2Outlined,
+  KnifeOutlined,
+  MaleOutlined,
+  MartiniGlassCrossedOutlined,
+  MartiniGlassOutlined,
+  MugSaucerSteamOutlined,
+  MugSaucerOutlined,
+  NonBinaryOutlined,
+  PizzaOutlined,
+  PopcornOutlined,
+  RestaurantMenuOutlined,
+  RoadSignOutlined,
+  SignBothOutlined,
+  SignLeftOutlined,
+  SignRightOutlined,
+  WineGlassOutlined
 }
