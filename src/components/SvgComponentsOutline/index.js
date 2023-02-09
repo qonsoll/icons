@@ -421,6 +421,7 @@ import Droplets1Outlined from './Droplets1'
 import Droplets2Outlined from './Droplets2'
 import Droplets3Outlined from './Droplets3'
 import DropperOutlined from './Dropper'
+import DraggerOutlined from './Dragger'
 import Edit1Outlined from './Edit1'
 import Edit2Outlined from './Edit2'
 import Edit3Outlined from './Edit3'
@@ -1665,6 +1666,7 @@ export {
   Droplets2Outlined,
   Droplets3Outlined,
   DropperOutlined,
+  DraggerOutlined,
   Edit1Outlined,
   Edit2Outlined,
   Edit3Outlined,
@@ -2895,6 +2897,7 @@ export default {
   Droplets2Outlined,
   Droplets3Outlined,
   DropperOutlined,
+  DraggerOutlined,
   Edit1Outlined,
   Edit2Outlined,
   Edit3Outlined,
