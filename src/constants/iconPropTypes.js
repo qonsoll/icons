@@ -560,6 +560,7 @@ const PROP_TYPES = {
     'Droplets2Outlined',
     'Droplets3Outlined',
     'DropperOutlined',
+    'DraggerOutlined',
     'Edit1Outlined',
     'Edit2Outlined',
     'Edit3Outlined',
