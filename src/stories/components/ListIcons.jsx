@@ -1,6 +1,6 @@
-import { Col, Container, Row } from '@qonsoll/react-design'
 import React, { useState } from 'react'
 
+import Box from '../components/Box'
 import IconSimpleView from './IconSimpleView'
 import { InputStyled } from './ListIcons.styled'
 import PropTypes from 'prop-types'
@@ -15,31 +15,25 @@ const ListIcons = (props) => {
   // [HELPER_FUNCTIONS]
   const handleChange = (e) => setFilter(e.target.value.toLocaleLowerCase())
 
-  // [COMPUTED_PROPERTIES]
-
   return (
-    <Container>
-      <Row noGutter>
-        <Col cw="12">
-          <InputStyled
-            onChange={handleChange}
-            placeholder="Write icon name..."
+    <Box width="100%" display="flex">
+      <Box width="inherit">
+        <InputStyled onChange={handleChange} placeholder="Write icon name..." />
+      </Box>
+      {filterIcons(filter).map((iconName, index) => (
+        <Box key={`IconSimpleView-${index}`} width="30%" mr={2}>
+          <IconSimpleView
+            name={iconName}
+            showInActionsCopied={showInActionsCopied}
+            size={size}
+            fill={fill}
           />
-        </Col>
-        {filterIcons(filter).map((iconName, index) => (
-          <Col key={`IconSimpleView-${index}`} cw={[4, 3, 2]}>
-            <IconSimpleView
-              name={iconName}
-              showInActionsCopied={showInActionsCopied}
-              size={size}
-              fill={fill}
-            />
-          </Col>
-        ))}
-      </Row>
-    </Container>
+        </Box>
+      ))}
+    </Box>
   )
 }
+
 ListIcons.propTypes = {
   fill: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),

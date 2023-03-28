@@ -1,6 +1,6 @@
 {
   "name": "@qonsoll/icons",
-  "version": "1.0.28",
+  "version": "1.1.0",
   "author": "qonsoll",
   "license": "MIT",
   "scripts": {
@@ -26,7 +26,6 @@
     "@babel/plugin-transform-modules-commonjs": "7.15.4",
     "@babel/preset-env": "7.16.8",
     "@babel/preset-react": "7.14.5",
-    "@qonsoll/react-design": "2.1.91",
     "@rollup/plugin-babel": "5.3.0",
     "@rollup/plugin-commonjs": "20.0.0",
     "@rollup/plugin-node-resolve": "13.0.4",
@@ -78,7 +77,7 @@
   },
   "homepage": "https://github.com/qonsoll/icons#readme",
   "dependencies": {
-    "antd": "4.22.7",
-    "styled-components": "5.3.5"
+    "styled-components": "5.3.5",
+    "styled-system": "^5.1.5"
   }
 }
