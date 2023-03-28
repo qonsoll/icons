@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 const PROP_TYPES = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   fill: PropTypes.string,
+  minWidth: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  minHeight: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  spin: PropTypes.bool,
   name: PropTypes.oneOf([
     'PlugStationOutlined',
     'AccidentOutlined',

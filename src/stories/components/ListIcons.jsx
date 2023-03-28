@@ -1,4 +1,4 @@
-import { Col, Container, Row } from '@qonsoll/react-design'
+import { Col, Row } from 'antd'
 import React, { useState } from 'react'
 
 import IconSimpleView from './IconSimpleView'
@@ -15,31 +15,25 @@ const ListIcons = (props) => {
   // [HELPER_FUNCTIONS]
   const handleChange = (e) => setFilter(e.target.value.toLocaleLowerCase())
 
-  // [COMPUTED_PROPERTIES]
-
   return (
-    <Container>
-      <Row noGutter>
-        <Col cw="12">
-          <InputStyled
-            onChange={handleChange}
-            placeholder="Write icon name..."
+    <Row gutter={[12, 12]}>
+      <Col span={24}>
+        <InputStyled onChange={handleChange} placeholder="Write icon name..." />
+      </Col>
+      {filterIcons(filter).map((iconName, index) => (
+        <Col key={`IconSimpleView-${index}`} xs={8} sm={6} md={4}>
+          <IconSimpleView
+            name={iconName}
+            showInActionsCopied={showInActionsCopied}
+            size={size}
+            fill={fill}
           />
         </Col>
-        {filterIcons(filter).map((iconName, index) => (
-          <Col key={`IconSimpleView-${index}`} cw={[4, 3, 2]}>
-            <IconSimpleView
-              name={iconName}
-              showInActionsCopied={showInActionsCopied}
-              size={size}
-              fill={fill}
-            />
-          </Col>
-        ))}
-      </Row>
-    </Container>
+      ))}
+    </Row>
   )
 }
+
 ListIcons.propTypes = {
   fill: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),

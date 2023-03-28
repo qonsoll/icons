@@ -1,4 +1,4 @@
-import { Input } from '@qonsoll/react-design'
+import { Input } from 'antd'
 import styled from 'styled-components'
 
 const InputStyled = styled(Input)`
