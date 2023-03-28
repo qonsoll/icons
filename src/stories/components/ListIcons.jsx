@@ -1,6 +1,6 @@
+import { Col, Row } from 'antd'
 import React, { useState } from 'react'
 
-import Box from '../components/Box'
 import IconSimpleView from './IconSimpleView'
 import { InputStyled } from './ListIcons.styled'
 import PropTypes from 'prop-types'
@@ -16,21 +16,21 @@ const ListIcons = (props) => {
   const handleChange = (e) => setFilter(e.target.value.toLocaleLowerCase())
 
   return (
-    <Box width="100%" display="flex">
-      <Box width="inherit">
+    <Row gutter={[12, 12]}>
+      <Col span={24}>
         <InputStyled onChange={handleChange} placeholder="Write icon name..." />
-      </Box>
+      </Col>
       {filterIcons(filter).map((iconName, index) => (
-        <Box key={`IconSimpleView-${index}`} width="30%" mr={2}>
+        <Col key={`IconSimpleView-${index}`} xs={8} sm={6} md={4}>
           <IconSimpleView
             name={iconName}
             showInActionsCopied={showInActionsCopied}
             size={size}
             fill={fill}
           />
-        </Box>
+        </Col>
       ))}
-    </Box>
+    </Row>
   )
 }
 
