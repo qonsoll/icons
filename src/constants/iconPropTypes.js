@@ -1234,6 +1234,7 @@ const PROP_TYPES = {
     'Tv1Outlined',
     'Tv2Outlined',
     'Tv3Outlined',
+    'Twitter1Outlined',
     'Type1Outlined',
     'Type2Outlined',
     'TypeSquareOutlined',
