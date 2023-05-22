@@ -1227,6 +1227,7 @@ import SignBothOutlined from './SignBoth'
 import SignLeftOutlined from './SignLeft'
 import SignRightOutlined from './SignRight'
 import WineGlassOutlined from './WineGlass'
+import Twitter1Outlined from './Twitter1'
 
 export {
   AccidentOutlined,
@@ -2336,6 +2337,7 @@ export {
   Tv1Outlined,
   Tv2Outlined,
   Tv3Outlined,
+  Twitter1Outlined,
   Type1Outlined,
   Type2Outlined,
   TypeSquareOutlined,
@@ -3568,6 +3570,7 @@ export default {
   Tv1Outlined,
   Tv2Outlined,
   Tv3Outlined,
+  Twitter1Outlined,
   Type1Outlined,
   Type2Outlined,
   TypeSquareOutlined,
