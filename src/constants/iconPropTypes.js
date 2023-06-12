@@ -40,6 +40,7 @@ const PROP_TYPES = {
     'ChartPieFilled',
     'CheckmarkFilled',
     'CheckMarkInShapeFilled',
+    'CheckVerified2Filled',
     'ClinicFilled',
     'ClockFilled',
     'CloseFilled',
