@@ -8,7 +8,7 @@ const Icon = (props) => {
   const {
     name,
     fill = '#000',
-    size = 12,
+    size = 16,
     minWidth,
     minHeight,
     spin,

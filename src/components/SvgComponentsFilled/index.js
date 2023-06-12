@@ -24,6 +24,7 @@ import ChartBarFilled from './ChartBar'
 import ChartPieFilled from './ChartPie'
 import CheckMarkInShapeFilled from './CheckmarkInShape'
 import CheckmarkFilled from './Checkmark'
+import CheckVerified2Filled from './CheckVerified2'
 import ClinicFilled from './Clinic'
 import ClockFilled from './Clock'
 import CloseFilled from './Close'
@@ -144,6 +145,7 @@ export {
   ChartBarFilled,
   ChartPieFilled,
   CheckmarkFilled,
+  CheckVerified2Filled,
   CheckMarkInShapeFilled,
   ClinicFilled,
   ClockFilled,
