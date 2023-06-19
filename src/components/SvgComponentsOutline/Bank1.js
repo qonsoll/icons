@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Building3Outlined = (props) => {
+const Bank1Outlined = (props) => {
   const { size = '24', fill = 'black' } = props
 
   return (
@@ -12,7 +12,7 @@ const Building3Outlined = (props) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M9.5 7H14.5M9.5 11H14.5M9.5 15H14.5M18 21V6.2C18 5.0799 18 4.51984 17.782 4.09202C17.5903 3.71569 17.2843 3.40973 16.908 3.21799C16.4802 3 15.9201 3 14.8 3H9.2C8.0799 3 7.51984 3 7.09202 3.21799C6.71569 3.40973 6.40973 3.71569 6.21799 4.09202C6 4.51984 6 5.0799 6 6.2V21M20 21H4"
+        d="M3 21H21M6 18V10M10 18V10M14 18V10M18 18V10M20 7.00001L12.424 2.26501C12.2702 2.16887 12.1933 2.1208 12.1108 2.10206C12.0379 2.08549 11.9621 2.08549 11.8892 2.10206C11.8067 2.1208 11.7298 2.16887 11.576 2.26501L4 7.00001H20Z"
         stroke={fill}
         strokeWidth="2"
         strokeLinecap="round"
@@ -22,4 +22,4 @@ const Building3Outlined = (props) => {
   )
 }
 
-export default Building3Outlined
+export default Bank1Outlined

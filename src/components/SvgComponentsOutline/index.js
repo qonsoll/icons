@@ -109,7 +109,9 @@ import BackpackOutlined from './Backpack'
 import BankNote1Outlined from './BankNote1'
 import BankNote2Outlined from './BankNote2'
 import BankNote3Outlined from './BankNote3'
-import BankOutlined from './Bank'
+import Bank1Outlined from './Bank1'
+import Bank2Outlined from './Bank2'
+import Bank3Outlined from './Bank3'
 import BarChart10Outlined from './BarChart10'
 import BarChart11Outlined from './BarChart11'
 import BarChart12Outlined from './BarChart12'
@@ -192,8 +194,6 @@ import Building3Outlined from './Building3'
 import Building4Outlined from './Building4'
 import Building5Outlined from './Building5'
 import Building6Outlined from './Building6'
-import Building7Outlined from './Building7'
-import Building8Outlined from './Building8'
 import BusOutlined from './Bus'
 import CalculatorOutlined from './Calculator'
 import CalendarCheck1Outlined from './CalendarCheck1'
@@ -212,8 +212,9 @@ import Camera3Outlined from './Camera3'
 import CameraLensOutlined from './CameraLens'
 import CameraOffOutlined from './CameraOff'
 import CameraPlusOutlined from './CameraPlus'
-import Car2Outlined from './Car2'
 import CarOutlined from './Car'
+import Car1Outlined from './Car1'
+import Car2Outlined from './Car2'
 import Certificate1Outlined from './Certificate1'
 import Certificate2Outlined from './Certificate2'
 import ChartBreakoutCircleOutlined from './ChartBreakoutCircle'
@@ -803,6 +804,7 @@ import MoonEclipseOutlined from './MoonEclipse'
 import MoonStarOutlined from './MoonStar'
 import MouseOutlined from './Mouse'
 import MoveOutlined from './Move'
+import MopedOutlined from './Moped'
 import MusicNote1Outlined from './MusicNote1'
 import MusicNote2Outlined from './MusicNote2'
 import MusicOutlined from './Music'
@@ -976,6 +978,7 @@ import ShieldOffOutlined from './ShieldOff'
 import ShieldPlusOutlined from './ShieldPlus'
 import ShieldTickOutlined from './ShieldTick'
 import ShieldZapOutlined from './ShieldZap'
+import ShipOutlined from './Ship'
 import ShoppingBag1Outlined from './ShoppingBag1'
 import ShoppingBag2Outlined from './ShoppingBag2'
 import ShoppingBag3Outlined from './ShoppingBag3'
@@ -1030,6 +1033,7 @@ import StickerCircleOutlined from './StickerCircle'
 import StickerSquareOutlined from './StickerSquare'
 import StopCircleOutlined from './StopCircle'
 import StopOutlined from './Stop'
+import StoreOutlined from './Store'
 import StopSquareOutlined from './StopSquare'
 import Strikethrough1Outlined from './Strikethrough1'
 import Strikethrough2Outlined from './Strikethrough2'
@@ -1355,7 +1359,9 @@ export {
   BankNote1Outlined,
   BankNote2Outlined,
   BankNote3Outlined,
-  BankOutlined,
+  Bank1Outlined,
+  Bank2Outlined,
+  Bank3Outlined,
   BarChart1Outlined,
   BarChart2Outlined,
   BarChart3Outlined,
@@ -1438,8 +1444,6 @@ export {
   Building4Outlined,
   Building5Outlined,
   Building6Outlined,
-  Building7Outlined,
-  Building8Outlined,
   BusOutlined,
   CalculatorOutlined,
   CalendarCheck1Outlined,
@@ -1458,8 +1462,9 @@ export {
   CameraLensOutlined,
   CameraOffOutlined,
   CameraPlusOutlined,
-  Car2Outlined,
   CarOutlined,
+  Car1Outlined,
+  Car2Outlined,
   Certificate1Outlined,
   Certificate2Outlined,
   ChartBreakoutCircleOutlined,
@@ -2044,6 +2049,7 @@ export {
   MoonStarOutlined,
   MouseOutlined,
   MoveOutlined,
+  MopedOutlined,
   MusicNote1Outlined,
   MusicNote2Outlined,
   MusicOutlined,
@@ -2213,6 +2219,7 @@ export {
   ShieldPlusOutlined,
   ShieldTickOutlined,
   ShieldZapOutlined,
+  ShipOutlined,
   ShoppingBag1Outlined,
   ShoppingBag2Outlined,
   ShoppingBag3Outlined,
@@ -2268,6 +2275,7 @@ export {
   StopCircleOutlined,
   StopSquareOutlined,
   StopOutlined,
+  StoreOutlined,
   Strikethrough1Outlined,
   Strikethrough2Outlined,
   StrikethroughSquareOutlined,
@@ -2587,7 +2595,9 @@ export default {
   BankNote1Outlined,
   BankNote2Outlined,
   BankNote3Outlined,
-  BankOutlined,
+  Bank1Outlined,
+  Bank2Outlined,
+  Bank3Outlined,
   BarChart1Outlined,
   BarChart2Outlined,
   BarChart3Outlined,
@@ -2670,8 +2680,7 @@ export default {
   Building4Outlined,
   Building5Outlined,
   Building6Outlined,
-  Building7Outlined,
-  Building8Outlined,
+
   BusOutlined,
   CalculatorOutlined,
   CalendarCheck1Outlined,
@@ -2690,8 +2699,9 @@ export default {
   CameraLensOutlined,
   CameraOffOutlined,
   CameraPlusOutlined,
-  Car2Outlined,
   CarOutlined,
+  Car1Outlined,
+  Car2Outlined,
   Certificate1Outlined,
   Certificate2Outlined,
   ChartBreakoutCircleOutlined,
@@ -3276,6 +3286,7 @@ export default {
   MoonStarOutlined,
   MouseOutlined,
   MoveOutlined,
+  MopedOutlined,
   MusicNote1Outlined,
   MusicNote2Outlined,
   MusicOutlined,
@@ -3446,6 +3457,7 @@ export default {
   ShieldPlusOutlined,
   ShieldTickOutlined,
   ShieldZapOutlined,
+  ShipOutlined,
   ShoppingBag1Outlined,
   ShoppingBag2Outlined,
   ShoppingBag3Outlined,
@@ -3501,6 +3513,7 @@ export default {
   StopCircleOutlined,
   StopSquareOutlined,
   StopOutlined,
+  StoreOutlined,
   Strikethrough1Outlined,
   Strikethrough2Outlined,
   StrikethroughSquareOutlined,
