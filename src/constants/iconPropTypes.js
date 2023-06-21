@@ -7,6 +7,7 @@ const PROP_TYPES = {
   minHeight: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   spin: PropTypes.bool,
   name: PropTypes.oneOf([
+    "SortDownLineAscOutlined",
     'PlugStationOutlined',
     'AccidentOutlined',
     'PoliceBadgeOutlined',
