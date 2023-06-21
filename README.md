@@ -76,10 +76,10 @@ function App() {
         2. export {...IconComponents, Icon(Filled/Outlined) }
         3. export default {...IconComponents, Icon(Filled/Outlined) }
     4. Go to src/components/index.js
-        1. import {...IconComponents, Icon(Filled/Outlined } from "./IconFolder"
+        1. import {...IconComponents, Icon(Filled/Outlined) } from "./IconFolder"
         2. export {...IconComponents, Icon(Filled/Outlined) }
     5. Go to src/constants/iconPropTypes.js
         1. update PROP_TYPES.name, with new IconComponent
     6. Go to src/constants/namesMap.js
-        1. import {...IconComponents, Icon(Filled/Outlined} from "../components/SvgComponents(Filled/Outline)"
+        1. import {...IconComponents, Icon(Filled/Outlined)} from "../components/SvgComponents(Filled/Outline)"
         2. const ICONS_NAMES = {...IconComponents, Icon(Filled/Outlined): <Icon(Filled/Outlined) />}

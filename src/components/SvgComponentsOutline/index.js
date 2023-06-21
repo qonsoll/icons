@@ -1038,7 +1038,22 @@ import Sliders3Outlined from './Sliders3'
 import Sliders4Outlined from './Sliders4'
 import Snowflake1Outlined from './Snowflake1'
 import Snowflake2Outlined from './Snowflake2'
+import SortDownAlphabetAscOutlined from './SortDownAlphabetAsc'
+import SortDownAlphabetDescOutlined from './SortDownAlphabetDesc'
+import SortDownBlockAscOutlined from './SortDownBlockAsc'
+import SortDownBlockDescOutlined from './SortDownBlockDesc'
 import SortDownLineAscOutlined from './SortDownLineAsc'
+import SortDownLineDescOutlined from './SortDownLineDesc'
+import SortDownNumberAscOutlined from './SortDownNumberAsc'
+import SortDownNumberDescOutlined from './SortDownNumberDesc'
+import SortUpAlphabetAscOutlined from './SortUpAlphabetAsc'
+import SortUpAlphabetDescOutlined from './SortUpAlphabetDesc'
+import SortUpBlockAscOutlined from './SortUpBlockAsc'
+import SortUpBlockDescOutlined from './SortUpBlockDesc'
+import SortUpLineAscOutlined from './SortUpLineAsc'
+import SortUpLineDescOutlined from './SortUpLineDesc'
+import SortUpNumberAscOutlined from './SortUpNumberAsc'
+import SortUpNumberDescOutlined from './SortUpNumberDesc'
 import SpacingHeight1Outlined from './SpacingHeight1'
 import SpacingHeight2Outlined from './SpacingHeight2'
 import SpacingWidth1Outlined from './SpacingWidth1'
@@ -1298,6 +1313,21 @@ export {
   ArrowBlockLeftOutlined,
   ArrowBlockRightOutlined,
   SortDownLineAscOutlined,
+  SortDownAlphabetAscOutlined,
+  SortDownAlphabetDescOutlined,
+  SortDownBlockAscOutlined,
+  SortDownBlockDescOutlined,
+  SortDownLineDescOutlined,
+  SortDownNumberAscOutlined,
+  SortDownNumberDescOutlined,
+  SortUpAlphabetAscOutlined,
+  SortUpAlphabetDescOutlined,
+  SortUpBlockAscOutlined,
+  SortUpBlockDescOutlined,
+  SortUpLineAscOutlined,
+  SortUpLineDescOutlined,
+  SortUpNumberAscOutlined,
+  SortUpNumberDescOutlined,
   ArrowBlockUpOutlined,
   ArrowCircleBrokenDownLeftOutlined,
   ArrowCircleBrokenDownRightOutlined,
@@ -2471,6 +2501,21 @@ export {
   WineGlassOutlined
 }
 export default {
+  SortDownAlphabetAscOutlined,
+  SortDownAlphabetDescOutlined,
+  SortDownBlockAscOutlined,
+  SortDownBlockDescOutlined,
+  SortDownLineDescOutlined,
+  SortDownNumberAscOutlined,
+  SortDownNumberDescOutlined,
+  SortUpAlphabetAscOutlined,
+  SortUpAlphabetDescOutlined,
+  SortUpBlockAscOutlined,
+  SortUpBlockDescOutlined,
+  SortUpLineAscOutlined,
+  SortUpLineDescOutlined,
+  SortUpNumberAscOutlined,
+  SortUpNumberDescOutlined,
   SortDownLineAscOutlined,
   Plus1Outlined,
   PlusOutlined,
