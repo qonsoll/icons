@@ -1177,6 +1177,7 @@ import UsbFlashDriveOutlined from './UsbFlashDrive'
 import User1Outlined from './User1'
 import User2Outlined from './User2'
 import User3Outlined from './User3'
+import UserSleepOutlined from './UserSleep'
 import UserCheck1Outlined from './UserCheck1'
 import UserCheck2Outlined from './UserCheck2'
 import UserCircleOutlined from './UserCircle'
@@ -2398,6 +2399,7 @@ export {
   User1Outlined,
   User2Outlined,
   User3Outlined,
+  UserSleepOutlined,
   UserCheck1Outlined,
   UserCheck2Outlined,
   UserCircleOutlined,
@@ -3652,6 +3654,7 @@ export default {
   User1Outlined,
   User2Outlined,
   User3Outlined,
+  UserSleepOutlined,
   UserCheck1Outlined,
   UserCheck2Outlined,
   UserCircleOutlined,
