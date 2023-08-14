@@ -1275,6 +1275,7 @@ const PROP_TYPES = {
     'UploadCloud2Outlined',
     'UsbFlashDriveOutlined',
     'User1Outlined',
+    'UserSleepOutlined',
     'User2Outlined',
     'User3Outlined',
     'UserCheck1Outlined',
